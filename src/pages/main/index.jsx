@@ -12,7 +12,7 @@ const Main = () => {
 
     useEffect(() => {
         if (token === null) {
-            navigate("/")
+            navigate("/login")
         }
     }, [])
 
