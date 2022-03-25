@@ -10,7 +10,7 @@ function App() {
 
     return (
         <Routes>
-            <Route exact path='/' element={<Login/>}/>
+            <Route exact path='/login' element={<Login/>}/>
             <Route exact path='/main' element={<Main/>}/>
             <Route exact path='/main' element={token===null ? <Navigate to='/'/> : <Navigate to='/main'/>}/>
         </Routes>

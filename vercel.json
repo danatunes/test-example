@@ -3,7 +3,7 @@
     {"source": "/(.*)", "destination": "/"}
   ],
   "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/main", "dest": "/" }
+    { "src": "/login", "dest": "/login" },
+    { "src": "/main", "dest": "/main" }
   ]
 }
